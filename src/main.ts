@@ -16,7 +16,7 @@ document.addEventListener('visibilitychange', () => {
 
   switch (document.visibilityState) {
     case 'visible':
-      history.push(`${formatedTimeStr}：页面部分可见，有其他前景窗口遮挡页面`)
+      history.push(`${formatedTimeStr}：页面可见，但不一定聚焦`)
       break
 
     case 'hidden':
